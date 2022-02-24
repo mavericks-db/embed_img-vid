@@ -79,10 +79,36 @@
     color: rgb(3, 3, 3);
 }
 
-.item1, .item2, .item3, .item4, .item5 {
+.thumb {
     display: flex;
     align-items: center;
     margin-top: 10px;
     margin-left: 10px;
     gap: 10px;
+}
+
+.thumbdesc {
+    display: block;
+    height: 94px;
+}
+
+#video-title-thumb {
+    display: block;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    text-overflow: ellipsis;
+}
+
+
+#video-channel-thumb {
+    display: block;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 20px;
+    text-overflow: ellipsis;
 }
