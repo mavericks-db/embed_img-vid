@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+:root {
+    background-color: white;
+}
+.body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    height: 56px;
+    justify-content: space-between;
+    padding: 0 16px;
+    background-color: lightblue;
+}
+
+.columns {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+}
+
+.primary {
+    display: block;
+    flex-basis: 1;
+    flex-grow: 1;
+    flex-shrink: 1;
+    margin-left: 24px;
+    min-width: 848px;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 24px;
+    padding-top: 24px;
+    
+    background-color: lightgray;
+    height: 100vh;
+    width: 100%;
+}
+.video_container {
+    display: block;
+    margin-left: 24px;
+
+    position: relative;
+    width: 97%;
+    height: 50vh;
+}
+
+.secondary {
+    display: block;
+    margin: 0;
+    min-width: 300px;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 24px;
+    padding-top: 24;
+    
+
+    background-color: whitesmoke;
+    height: 100vh;
+    width: 50%;
+}
+
+#video-title {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+
+    color: rgb(3, 3, 3);
+}
