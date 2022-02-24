@@ -13,7 +13,7 @@
     margin: 0;
     padding: 0;
 }
-
+/* This is the header section */
 .container {
     align-items: center;
     display: flex;
@@ -30,7 +30,7 @@
     margin: 0;
     padding: 0;
 }
-
+/* This is the video section */
 .primary {
     display: block;
     flex-basis: 1;
@@ -56,6 +56,7 @@
     height: 50vh;
 }
 
+/* This is the sidebar previews */
 .secondary {
     display: block;
     margin: 0;
@@ -78,6 +79,16 @@
 
     color: rgb(3, 3, 3);
 }
+
+/* Part of the preview items */
+.details {
+    display: flex;
+    flex-direction: column;
+    padding-right: 24px;
+    width: 226px;
+    justify-items: center;
+}
+
 
 .thumb {
     display: flex;
@@ -102,7 +113,6 @@
     text-overflow: ellipsis;
 }
 
-
 #video-channel-thumb {
     display: block;
     overflow-x: hidden;
@@ -111,4 +121,23 @@
     font-weight: 500;
     line-height: 20px;
     text-overflow: ellipsis;
+}
+
+#video-channel-views, #video-channel-uploaded {
+    display: block;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    text-decoration-thickness: auto;
+    margin: 0 4px;
+}
+
+.metadata-line {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+}
+
+.text-container {
+    display: block;
 }
