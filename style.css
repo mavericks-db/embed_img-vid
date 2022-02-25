@@ -24,6 +24,20 @@
     background-color: white;
 }
 
+#search {
+    color:rgb(17, 17, 17);
+    background-color: rgba(0,0,0,0);
+    border-bottom-color: rgb(17, 17, 17);
+    border-image-repeat: stretch;
+    border-image-slice: 100%;
+    border-image-width: 1;
+    border-left-color: rgb(17, 17, 17);
+    border-right-color: rgb(17, 17, 17);
+    border-top-color: rgb(17, 17, 17);
+    cursor: text;
+    outline-color: rgb(17, 17, 17);
+}
+
 #hamburger {
     display: block;
     height: 40px;
