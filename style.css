@@ -19,9 +19,17 @@
     display: flex;
     flex-direction: row;
     height: 56px;
-    justify-content: center;  /*space-between*/
+    justify-content: space-between;
     padding: 0 16px;
-    background-color: lightblue;
+    background-color: white;
+}
+
+#hamburger {
+    display: block;
+    height: 40px;
+    padding: 8px;
+    position: relative;
+    width: 40px;  
 }
 
 .columns {
